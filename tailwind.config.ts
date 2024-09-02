@@ -14,6 +14,13 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    screens: {
+      mobile: { min: "320px", max: "767px" }, // Covers most phones
+      tablet: { min: "768px", max: "1024px" }, // Covers tablets in both orientations
+      laptop: { min: "1025px", max: "1440px" }, // Standard laptop range
+      desktop: { min: "1441px", max: "1919px" }, // Standard desktop range
+      largeScreen: { min: "1920px", max: "2560px" }, // Larger screens
+    },
   },
   plugins: [],
 };
