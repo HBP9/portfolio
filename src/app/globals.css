@@ -99,3 +99,74 @@ body {
     opacity: 0;
   }
 }
+
+/* Main container for all project cards */
+.data-container {
+  position: relative;
+}
+
+/* Individual content box */
+.content_box {
+  position: relative;
+  overflow: hidden;
+  transition: opacity 0.3s ease; /* Add transition for smooth dimming */
+}
+
+/* Image inside content box */
+.content_box img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Zoom effect on hover */
+.content_box:hover img {
+  transform: scale(1.1); /* Zoom effect */
+}
+
+/* Description box initially hidden */
+.project_desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+}
+
+/* Show description on hover */
+.content_box:hover .project_desc {
+  opacity: 1;
+}
+
+/* Text styling inside project description */
+.project_desc h3 {
+  font-size: 2rem;
+  color: black;
+}
+
+.project_desc .desc {
+  font-size: 1rem;
+  color: black;
+}
+
+/* Dimming other content boxes when one is hovered */
+.data-container:hover .content_box {
+  opacity: 0.3; /* Dim all content boxes */
+}
+
+/* Keep the hovered content box fully visible */
+.content_box:hover {
+  opacity: 1 !important;
+  border: 2px solid #41e1db;
+}
