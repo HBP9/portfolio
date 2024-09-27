@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         oswald: ["Oswald", "sans-serif"],
+        bebas: ["Bebas Neue", "sans-serif"],
       },
     },
     screens: {

@@ -222,3 +222,46 @@ body {
 .back {
   transform: rotateY(180deg);
 }
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide {
+  animation: slideInFromTop 2s ease-out forwards;
+}
+
+@keyframes colorSweep {
+  0% {
+    background-position: -100%;
+    color: white;
+  }
+  50% {
+    background-position: 100%;
+    color: transparent;
+  }
+  100% {
+    background-position: 200%;
+    color: white;
+  }
+}
+
+.color-sweep {
+  background: linear-gradient(
+    90deg,
+    rgba(65, 225, 219, 0.8),
+    rgba(255, 255, 255, 0.1)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: white;
+  animation: colorSweep 3s linear forwards;
+}
