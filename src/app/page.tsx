@@ -208,6 +208,84 @@ const App = () => {
           </div>
         </div>
       </section>
+      <section className="aboutus-section py-36 bg-white">
+        <div className="data-container mx-auto max-w-[80vw] tablet:max-w-[95vw] flex flex-col justify-center gap-8">
+          <h3 className="head text-[#41e1db] font-semibold text-2xl">
+            Who We Are?
+          </h3>
+          <div className="serviceIntro flex flex-col gap-6">
+            <span className="text-black text-6xl font-oswald animate-slide">
+              Innovators at heart, technologists by trade – crafting digital
+              experiences that inspire.
+            </span>
+            <span className="text-black text-xl">
+              We are a team driven by an unwavering passion for technology and
+              innovation, committed to crafting solutions that empower
+              businesses to reach new heights. Our journey began with a singular
+              goal: to break down complex challenges and deliver technology that
+              not only simplifies but transforms the way our clients operate. We
+              believe in creating seamless, intuitive, and forward-thinking
+              solutions that eliminate inefficiencies and performance
+              bottlenecks, allowing businesses to focus on growth and innovation
+              without the distractions of technical hiccups. Quality is at the
+              heart of everything we do—whether it's designing a robust user
+              interface or implementing a flawless backend system, our obsession
+              with precision and excellence shines through in every project. We
+              approach every task with a mindset to deliver simplicity and ease
+              of use, ensuring that our technology not only works but enhances
+              the everyday experiences of our users. At our core, we are more
+              than just a tech company—we are your partners in growth, dedicated
+              to making the complex simple and helping you navigate the future
+              with confidence.
+            </span>
+          </div>
+        </div>
+        {/* later if we want we can add some images here to showcase team or something like that */}
+      </section>
+      <section className="contact-section py-36 bg-black">
+        <div className="data-container mx-auto max-w-[80vw] tablet:max-w-[95vw] flex flex-col justify-center gap-8">
+          <h1 className="head text-white font-semibold text-8xl mobile:text-6xl">
+            Got a{" "}
+            <span className="text-[#41e1db] color-sweep-stay">brilliant</span>{" "}
+            idea or a project in mind? Let’s make it happen together
+          </h1>
+          <h3 className="head text-white font-semibold text-2xl pt-6">
+            Contact Us
+          </h3>
+          <div className="text-white flex flex-col text-4xl mobile:text-2xl pt-6 gap-3">
+            <span>
+              Email :{" "}
+              <a
+                href="mailto:examplemail@gmail.com"
+                className="text-white hover:text-[#41e1db]"
+              >
+                examplemail@gmail.com
+              </a>
+            </span>
+            <span>
+              Phone :{" "}
+              <a
+                href="tel:+911234567890"
+                className="text-white hover:text-[#41e1db]"
+              >
+                +91 1234567890
+              </a>
+            </span>
+            <span>
+              Address :{" "}
+              <a
+                href="https://www.google.com/maps?q=Sample+address,+Andheri,+Mumbai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-[#41e1db]"
+              >
+                Sample address, Andheri, Mumbai
+              </a>
+              i
+            </span>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
