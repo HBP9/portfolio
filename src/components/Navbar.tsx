@@ -29,22 +29,22 @@ const Navbar = () => {
       </div>
       <ul className="flex tablet:hidden mobile:hidden list-text gap-14">
         <li className="text-[1.0248901903vw] font-bold relative text-effect">
-          <Link href="/" className="link">
+          <Link href="#services" className="link">
             Services
           </Link>
         </li>
         <li className="text-[1.0248901903vw] font-bold relative text-effect">
-          <Link href="/about" className="link">
+          <Link href="#projects" className="link">
             Our Work
           </Link>
         </li>
         <li className="text-[1.0248901903vw] font-bold relative text-effect">
-          <Link href="/about" className="link">
+          <Link href="#about" className="link">
             About Us
           </Link>
         </li>
         <li className="text-[1.0248901903vw] font-bold relative text-effect">
-          <Link href="/contact" className="link">
+          <Link href="#contact" className="link">
             Contact
           </Link>
         </li>

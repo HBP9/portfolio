@@ -4,7 +4,7 @@ import React from "react";
 const App = () => {
   return (
     <>
-      <section className="home-section py-36 bg-black">
+      <section id="home" className="home-section py-36 bg-black">
         <div className="data-container text-white mx-auto max-w-[80vw] flex flex-col justify-center">
           <h1 className="font-bebas text-9xl mobile:text-7xl animate-slide color-sweep">
             Turning your visionary ideas into powerful realities,
@@ -14,7 +14,7 @@ const App = () => {
           </p>
         </div>
       </section>
-      <section className="services-section py-16 bg-white">
+      <section id="services" className="services-section py-16 bg-white">
         <div className="data-container mx-auto max-w-[80vw] tablet:max-w-[95vw] flex flex-col justify-center gap-8">
           <h3 className="head text-[#41e1db] font-semibold text-2xl">
             What We Do?
@@ -90,7 +90,7 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section className="project-section py-16 bg-black">
+      <section id="projects" className="project-section py-16 bg-black">
         <div className="data-container mx-auto max-w-[90vw] flex flex-col justify-center">
           <div className="pSection1 flex justify-center pb-4 gap-4">
             <div className="projectL">
@@ -208,7 +208,7 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section className="aboutus-section py-36 bg-white">
+      <section id="about" className="aboutus-section py-36 bg-white">
         <div className="data-container mx-auto max-w-[80vw] tablet:max-w-[95vw] flex flex-col justify-center gap-8">
           <h3 className="head text-[#41e1db] font-semibold text-2xl">
             Who We Are?
@@ -242,7 +242,7 @@ const App = () => {
         </div>
         {/* later if we want we can add some images here to showcase team or something like that */}
       </section>
-      <section className="contact-section py-36 bg-black">
+      <section id="contact" className="contact-section py-36 bg-black">
         <div className="data-container mx-auto max-w-[80vw] tablet:max-w-[95vw] flex flex-col justify-center gap-8">
           <h1 className="head text-white font-semibold text-8xl mobile:text-6xl">
             Got a{" "}
