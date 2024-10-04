@@ -13,7 +13,11 @@ const Navbar = () => {
     <nav className="flex justify-between items-center py-[10px] px-[120px] tablet:py-[25px] tablet:px-[50px] mobile:py-[20px] mobile:px-[20px] bg-black text-white">
       <div className="flex items-center">
         <Link href="/">
-          <img src="/logo.jpg" alt="Company Logo" className="h-10" />
+          <img
+            src="/logo.webp"
+            alt="Company Logo"
+            className="h-[82px] w-[82px]"
+          />
         </Link>
       </div>
       <div className="tablet:flex mobile:flex hidden hamburger-icon">
