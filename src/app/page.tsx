@@ -256,32 +256,20 @@ const App = () => {
             <span>
               Email :{" "}
               <a
-                href="mailto:examplemail@gmail.com"
+                href="mailto:inquiries.techeasesolutions@gmail.com"
                 className="text-white hover:text-[#41e1db]"
               >
-                examplemail@gmail.com
+                inquiries.techeasesolutions@gmail.com
               </a>
             </span>
             <span>
               Phone :{" "}
               <a
-                href="tel:+911234567890"
+                href="tel:+919082367697"
                 className="text-white hover:text-[#41e1db]"
               >
-                +91 1234567890
+                +91 9082367697
               </a>
-            </span>
-            <span>
-              Address :{" "}
-              <a
-                href="https://www.google.com/maps?q=Sample+address,+Andheri,+Mumbai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-[#41e1db]"
-              >
-                Sample address, Andheri, Mumbai
-              </a>
-              i
             </span>
           </div>
         </div>
